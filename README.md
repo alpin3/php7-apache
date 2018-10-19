@@ -18,20 +18,20 @@ docker run [docker-options] alpin3/php-apache
 Typical basic usage:
 
 ```
-docker run -it alpin3/php-apache
+docker run -it alpin3/php7-apache
 ```
 
 Typical usage in Dockerfile:
 
 ```
-FROM alpin3/php-apache
+FROM alpin3/php7-apache
 RUN echo "<?php phpinfo() ?>" > /app/index.php
 ```
 
 Typical usage:
 
 ```
-docker run -it --link=somedb:db alpin3/php-apache
+docker run -it --link=somedb:db alpin3/php7-apache
 ```
 
 ### Todo
