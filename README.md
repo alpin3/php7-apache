@@ -1,12 +1,11 @@
-# alpin3/php-apache
+# alpin3/php7-apache
 
 Multiple purpose Apache and PHP image based on Alpine
 
 Image is based on the official [alpine](https://registry.hub.docker.com/u/alpine/) base image
 
 ## Docker image size
-
-[![Latest](https://badge.imagelayers.io/alpin3/php-apache.svg)](https://imagelayers.io/?images=alpin3/php-apache:latest 'latest')
+[![Latest](https://images.microbadger.com/badges/image/alpin3/php7-apache.svg)](https://microbadger.com/images/alpin3/php7-apache 'latest')
 
 ## Docker image usage
 
